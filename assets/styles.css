@@ -1,0 +1,111 @@
+.caption {
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: normal;
+    /*cursor: grab;*/
+    text-align: center;
+    overflow-wrap: normal;
+    margin: 0;
+    border: 0;
+    padding: 0 .25em;
+    display: inline-block;
+    white-space: pre-wrap;
+    background: rgba(8, 8, 8, 0.75);
+    -webkit-box-decoration-break: clone;
+    border-radius: 3px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+    font-family: "YouTube Noto", Roboto, "Arial Unicode Ms", Arial, Helvetica, Verdana, "PT Sans Caption", sans-serif;
+}
+
+* {
+    font-family: Roboto, "Arial Unicode Ms", Arial, Helvetica, Verdana, "PT Sans Caption", sans-serif;
+    background: #fafafa;
+    color: #474747;
+}
+
+#title-menu {
+    padding: 0 0 0 10px;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.91);
+}
+
+#title-menu > * {
+    display: inline-block;
+}
+
+#title-menu h1 {
+    padding-right: 10px;
+    width: auto;
+}
+
+#title-menu menu {
+}
+
+#menu-file.open {
+    background-color: rgb(128,128,128);
+}
+
+#title-menu h1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+#container {
+    display: flex;
+    height: calc(100vh - 30px);
+    flex-flow: column;
+    justify-content: center;
+}
+
+.s1 h3 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.s1 .action {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3em;
+}
+
+.s1 .action .step1,
+.s1 .action .step2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    min-height: 100px;
+    height: 30vh;
+    width:  30vw;
+    font-size: 1.4em;
+    text-align: center;
+    border: 1px solid rgb(128,128,128);
+    padding: 0 50px;
+    line-height: 2em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(128,128,128);
+    cursor: pointer;
+}
+
+.s1 .action .step1:hover,
+.s1 .action .step2:hover {
+    background-color: rgba(71, 71, 71, 0.33);
+}
+.s1 .action .step1:hover > div,
+.s1 .action .step2:hover > div {
+    background-color: transparent;
+}
+
+.s1 .action .step1 input,
+.s1 .action .step2 input {
+    display: none;
+}
+#file-path {
+    font-size: 0.5rem;
+    line-height: normal;
+    background-color: transparent;
+}
