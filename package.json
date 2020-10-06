@@ -10,6 +10,6 @@
   "author": "Raccoon Li <a60814billy@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^8.1.1"
+    "electron": "^8.5.2"
   }
 }
